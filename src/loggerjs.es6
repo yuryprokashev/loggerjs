@@ -45,7 +45,7 @@ startKafka = () => {
 
 startLogic =() => {
     loggerCtrl = loggerCtrlFactory(kafkaService, EventEmitter);
-    loggerCtr.start();
+    loggerCtrl.start();
 };
 
 startKafka();
