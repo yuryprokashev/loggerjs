@@ -22,9 +22,6 @@ const kafkaServiceFactory = require('my-kafka').kafkaServiceFactory;
 
 const loggerCtrlFactory = require('my-logger').loggerCtrlFactory;
 const loggerAgentFactory = require('my-logger').loggerAgentFactory;
-console.log(loggerAgentFactory);
-console.log('\n\n');
-console.log(loggerCtrlFactory);
 
 let kafkaBus;
 
